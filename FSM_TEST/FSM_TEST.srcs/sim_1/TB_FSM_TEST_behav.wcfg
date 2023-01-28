@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_FSM_TEST_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_FSM_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="8.435769358 ms"></ZoomEndTime>
+      <Cursor1Time time="0.501000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/TB_FSM_TEST/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/rst_btn" type="logic">
+      <obj_property name="ElementShortName">rst_btn</obj_property>
+      <obj_property name="ObjectShortName">rst_btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/trg" type="logic">
+      <obj_property name="ElementShortName">trg</obj_property>
+      <obj_property name="ObjectShortName">trg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/rxd" type="array">
+      <obj_property name="ElementShortName">rxd[17:0]</obj_property>
+      <obj_property name="ObjectShortName">rxd[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/start_trg" type="logic">
+      <obj_property name="ElementShortName">start_trg</obj_property>
+      <obj_property name="ObjectShortName">start_trg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/MAINCLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">MAINCLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAINCLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/TIME_1US" type="array">
+      <obj_property name="ElementShortName">TIME_1US[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TIME_1US[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/TIME_1MS" type="array">
+      <obj_property name="ElementShortName">TIME_1MS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TIME_1MS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider47">
+      <obj_property name="label">ONE_YEAR_153</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/FSM_RST" type="logic">
+      <obj_property name="ElementShortName">FSM_RST</obj_property>
+      <obj_property name="ObjectShortName">FSM_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/TRG" type="logic">
+      <obj_property name="ElementShortName">TRG</obj_property>
+      <obj_property name="ObjectShortName">TRG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/STATE_OUT" type="array">
+      <obj_property name="ElementShortName">STATE_OUT[4:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_OUT[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/trg_ff1" type="logic">
+      <obj_property name="ElementShortName">trg_ff1</obj_property>
+      <obj_property name="ObjectShortName">trg_ff1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/trg_ff2" type="logic">
+      <obj_property name="ElementShortName">trg_ff2</obj_property>
+      <obj_property name="ObjectShortName">trg_ff2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/trg_redg" type="logic">
+      <obj_property name="ElementShortName">trg_redg</obj_property>
+      <obj_property name="ObjectShortName">trg_redg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/ONE_YEAR_153/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider48">
+      <obj_property name="label">LED_12_AND_W_153</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/COLOR_SEL" type="array">
+      <obj_property name="ElementShortName">COLOR_SEL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">COLOR_SEL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/LED_PWM_R" type="logic">
+      <obj_property name="ElementShortName">LED_PWM_R</obj_property>
+      <obj_property name="ObjectShortName">LED_PWM_R</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/LED_PWM_G" type="logic">
+      <obj_property name="ElementShortName">LED_PWM_G</obj_property>
+      <obj_property name="ObjectShortName">LED_PWM_G</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/LED_PWM_B" type="logic">
+      <obj_property name="ElementShortName">LED_PWM_B</obj_property>
+      <obj_property name="ObjectShortName">LED_PWM_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/cnt_1ms" type="array">
+      <obj_property name="ElementShortName">cnt_1ms[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_1ms[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/cnt_256" type="array">
+      <obj_property name="ElementShortName">cnt_256[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_256[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/duty_r" type="array">
+      <obj_property name="ElementShortName">duty_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">duty_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/duty_g" type="array">
+      <obj_property name="ElementShortName">duty_g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">duty_g[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_FSM_TEST/FSM_TEST/LED_12_AND_W_153/duty_b" type="array">
+      <obj_property name="ElementShortName">duty_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">duty_b[7:0]</obj_property>
+   </wvobject>
+</wave_config>
